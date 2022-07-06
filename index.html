@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tables</title>
+</head>
+
+<style>
+  body {
+    margin: 0;
+    background-color: #e5e5e5;
+  }
+
+  table {
+    border-spacing: 0;
+   width: 100%;
+  }
+
+  td {
+    padding: 0;
+  }
+
+  img {
+    border: 0;
+  }
+
+  .main {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+  }
+
+  .wrapper {
+    width: 100%;
+    table-layout: fixed;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  .header-text{
+    width: 38px;
+    color: #fff;
+    text-decoration: none;
+    font: normal normal normal 16px/33px Segoe UI;
+  }
+  .header {
+    padding: 40px 0 12px 100px;
+  }
+
+  .two-columns {
+    font-size: 1;
+    background-color: #74af0d;
+  }
+
+  .two-columns .column {
+    background-color: #74af0d;
+    width: 100%;
+    max-width: 300px;
+    display: inline;
+    vertical-align: top;
+  }
+
+  .recipient {
+    width: 500px;
+    text-align: left;
+    font: normal normal normal 15px/16px Segoe UI;
+    letter-spacing: 0px;
+    color: #3a3a3a;
+    opacity: 1;
+  }
+
+  .details-title h2 {
+    text-align: center;
+    font: normal normal 300 21px/16px Segoe UI;
+    color: #3a3a3a;
+  }
+
+  .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+  }
+
+  .three-columns {
+    font-size: 0;
+    text-align: center;
+    padding: 35px 0 20px;
+  }
+
+  .three-columns .column {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: top;
+  }
+/* 
+  .three-columns .padding {
+    padding: 10px;
+  } */
+
+  .three-columns .content {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .button {
+    background-color: #74af0d;
+    border-radius: 9px;
+    opacity: 1;
+    font: normal normal bold 12px/2px Segoe UI;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 2px;
+    font-weight: bold;
+  }
+
+  .header-text{
+    width: 38px;
+    color: #fff;
+    text-decoration: none;
+    font: normal normal normal 16px/33px Segoe UI;
+  }
+  .header {
+    padding: 40px 0 12px 100px;
+  }
+
+  .two-columns {
+    font-size: 1;
+  }
+
+  .two-columns .column {
+    background-color: #74af0d;
+    width: 100%;
+    max-width: 300px;
+    display: inline;
+    vertical-align: top;
+  }
+
+  .footer-columns {
+    font-size: 1;
+  }
+
+  .footer-columns .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline;
+    vertical-align: top;
+  }
+
+  .footer-text {
+    padding: 10px 0 12px 50px;
+    font: normal normal normal 9px/12px Segoe UI;
+    color: #959595;
+  }
+
+  @media screen and (max-width: 460px) {
+    .three-columns {
+      font-size: 0;
+      text-align: center;
+      padding: 5px 0 20px;
+    }
+
+    
+  }
+</style>
+
+<body>
+  <center class="wrapper">
+    <table width="100%" class="main">
+
+      <tr>
+        <td>
+          <table>
+
+            <tr>
+              <td class="two-columns">
+
+                <table class="column">
+                  <tr>
+                    <td style="padding: 24px 50px;">
+                      <a href="#"><img src="./img/logo-header-float@2x.png" alt="Logo Float" title="Logo Float" width="190px"></a>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td class="header">
+                      <a href="" class="header-text">Comunicação Oficial</a>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+
+      <tbody>
+        <tr class="recipient">
+          <td style="padding: 25px 50px 0 50px">
+            <p>Caro/a Dr. João de Deus,</p>
+          </td>
+          
+        </tr>
+
+        <tr class="recipient">
+          <td style="padding: 0px 50px 0 50px;">
+            <p>Serve o presente email para confirmar o agendamento da sua reunião
+              através da plataforma FloatMeetings. Pode confirmar os detalhes
+              abaixo1. Na hora da sessão deve aceder à sala de reunião através
+              da hiperligação.</p>
+          </td>
+          
+        </tr>
+
+        <tr class="details">
+          <td class="details-title">
+            <h2>Detalhes da sessão com a Dr.(a) Eunice Muñoz</h2>
+          </td>
+          
+        </tr>
+
+        <tr>
+          <td>
+            <table width="100%">
+
+              <tr>
+                <td class="three-columns">
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding" >
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img src="./img/icon-clock@2x.png" alt="icone de relógio" title="Relógio" width="30px"
+                                style="max-width: 260px;">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h3 style="font-size: 20px; font-weight: 300;">Quando?</h3>
+                              <p style="font-weight: bold;">
+                                20 de Julho de 2022
+                                <br />
+                                @ 17h45
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img src="./img/icon-marker@2x.png" alt="icone localização" title="Localização" width="30px" style="max-width: 260px;">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td >
+                              <h3 style="font-size: 20px; font-weight: 300;">
+                                Onde?
+                              </h3>
+                              <a href="#" class="button">Aceder à  Reunião do teams</a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <img src="./img/icon-cal@2x.png" alt="icone de lembre" title="Lembrete" width="30px"
+                                style="max-width: 260px;">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h3 style="font-size: 20px; font-weight: 300;">
+                                Lembrete
+                              </h3>
+                              <a href="#" class="button">Adicionar ao calendário</a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="font: normal normal normal 15px/16px Segoe UI;">
+            <p style="padding: 0px 50px 0 50px">
+              Em caso de dúvidas, pode entrar em contacto com
+              <a href="" style="color: #74af0d">meetme@float.pt</a>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding: 10px 50px 0 50px; font: normal normal normal 15px/16px Segoe UI;">Melhores Cumprimentos</td>
+        </tr>
+
+        <tr>
+          <td style="padding: 3px 50px 34px 50px; font: normal normal normal 15px/16px Segoe UI;">A equipa Float</td>
+        </tr>
+
+        <tr>
+          <td height="2" style="background-color: #74af0d;">
+
+          </td>
+        </tr>
+      </tbody>
+
+      <tr>
+        <td>
+          <table>
+
+            <tr>
+              <td class="footer-columns">
+
+                <table class="column">
+                  <tr>
+                    <td class="footer-text">
+                      <p>Copyright FloatMeetings© 2022</p>
+                      <p>1. Detalhes sujeitos a confirmação.</p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="column">
+                  <tr>
+                    <td style="padding: 24px 0 10px 282px;">
+                      <a href="#"><img src="./img/logo-footer-float@2x.png" alt="Logo Float Health" style="width: 100px" title="Logo"></a>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+
+</html>
