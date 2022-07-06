@@ -16,7 +16,7 @@
 
   table {
     border-spacing: 0;
-   width: 100%;
+    width: 100%;
   }
 
   td {
@@ -40,12 +40,13 @@
     padding-top: 60px;
   }
 
-  .header-text{
+  .header-text {
     width: 38px;
     color: #fff;
     text-decoration: none;
     font: normal normal normal 16px/33px Segoe UI;
   }
+
   .header {
     padding: 40px 0 12px 100px;
   }
@@ -94,10 +95,11 @@
   .three-columns .column {
     width: 100%;
     max-width: 150px;
-    display: inline-block;
+    display: inline-table;
     vertical-align: top;
   }
-/* 
+
+  /* 
   .three-columns .padding {
     padding: 10px;
   } */
@@ -118,12 +120,13 @@
     font-weight: bold;
   }
 
-  .header-text{
+  .header-text {
     width: 38px;
     color: #fff;
     text-decoration: none;
     font: normal normal normal 16px/33px Segoe UI;
   }
+
   .header {
     padding: 40px 0 12px 100px;
   }
@@ -157,15 +160,55 @@
     color: #959595;
   }
 
-  @media screen and (max-width: 460px) {
+  .footer-logo {
+    padding: 24px 0 10px 282px;
+  }
+
+  @media screen and (max-width: 386px) {
+    .details-title h2 {
+    font: normal normal 300 15px/16px Segoe UI;
+}
+  }
+
+  @media screen and (max-width: 468px) {
     .three-columns {
       font-size: 0;
       text-align: center;
       padding: 5px 0 20px;
     }
 
-    
+    .three-columns .column {
+      width: 100%;
+      max-width: 225px;
+      display: inline-table;
+      vertical-align: top;
+    }
+
+
+    .details-title h2 {
+    font: normal normal 300 19px/16px Segoe UI;
+}
   }
+
+  @media screen and (max-width: 530px) {
+    .footer-logo {
+      padding: 24px 0 10px 80px;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    .footer-logo {
+      padding: 24px 0 10px 170px;
+    }
+  }
+
+  @media screen and (max-width: 590px) {
+    .footer-logo {
+      padding: 24px 0 10px 242px;
+    }
+  }
+
+  
 </style>
 
 <body>
@@ -182,7 +225,8 @@
                 <table class="column">
                   <tr>
                     <td style="padding: 24px 50px;">
-                      <a href="#"><img src="./img/logo-header-float@2x.png" alt="Logo Float" title="Logo Float" width="190px"></a>
+                      <a href="#"><img src="./img/logo-header-float@2x.png" alt="Logo Float" title="Logo Float"
+                          width="190px"></a>
                     </td>
                   </tr>
                 </table>
@@ -207,7 +251,7 @@
           <td style="padding: 25px 50px 0 50px">
             <p>Caro/a Dr. João de Deus,</p>
           </td>
-          
+
         </tr>
 
         <tr class="recipient">
@@ -217,14 +261,14 @@
               abaixo1. Na hora da sessão deve aceder à sala de reunião através
               da hiperligação.</p>
           </td>
-          
+
         </tr>
 
         <tr class="details">
           <td class="details-title">
             <h2>Detalhes da sessão com a Dr.(a) Eunice Muñoz</h2>
           </td>
-          
+
         </tr>
 
         <tr>
@@ -236,7 +280,7 @@
 
                   <table class="column">
                     <tr>
-                      <td class="padding" >
+                      <td class="padding">
 
                         <table class="content">
                           <tr>
@@ -268,15 +312,16 @@
                         <table class="content">
                           <tr>
                             <td>
-                              <img src="./img/icon-marker@2x.png" alt="icone localização" title="Localização" width="30px" style="max-width: 260px;">
+                              <img src="./img/icon-marker@2x.png" alt="icone localização" title="Localização"
+                                width="30px" style="max-width: 260px;">
                             </td>
                           </tr>
                           <tr>
-                            <td >
+                            <td>
                               <h3 style="font-size: 20px; font-weight: 300;">
                                 Onde?
                               </h3>
-                              <a href="#" class="button">Aceder à  Reunião do teams</a>
+                              <a href="#" class="button">Aceder à Reunião do teams</a>
                             </td>
                           </tr>
                         </table>
@@ -327,7 +372,8 @@
         </tr>
 
         <tr>
-          <td style="padding: 10px 50px 0 50px; font: normal normal normal 15px/16px Segoe UI;">Melhores Cumprimentos</td>
+          <td style="padding: 10px 50px 0 50px; font: normal normal normal 15px/16px Segoe UI;">Melhores Cumprimentos
+          </td>
         </tr>
 
         <tr>
@@ -359,8 +405,9 @@
 
                 <table class="column">
                   <tr>
-                    <td style="padding: 24px 0 10px 282px;">
-                      <a href="#"><img src="./img/logo-footer-float@2x.png" alt="Logo Float Health" style="width: 100px" title="Logo"></a>
+                    <td class="footer-logo">
+                      <a href="#"><img src="./img/logo-footer-float@2x.png" alt="Logo Float Health" style="width: 100px"
+                          title="Logo"></a>
                     </td>
                   </tr>
                 </table>
